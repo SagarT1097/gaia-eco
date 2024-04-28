@@ -1,23 +1,23 @@
 import Link from "next/link";
 import { auth } from "@clerk/nextjs/server";
 import { UserButton } from "@clerk/nextjs";
+import Image from "next/image";
 
 const Header = async () => {
   const { userId } = auth(); //Clerk auth - Check if user is logged in or not
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 mb-5 bg-blue-700">
+    <nav className="flex items-center justify-between px-6 py-4 mb-5 bg-green-900">
       <div className="flex items-center">
-        <div className="flex items-center">
+        <div className="relative w-12 h-12 mr-4">
           <Link href="/">
-            <div className="text-lg font-bold text-white uppercase">
-              Gaia.eco
-            </div>
+            <Image fill alt="" src="/logo.svg" />
           </Link>
-
+        </div>
+        <div className="flex items-center">
           <div className="flex items-center px-5 ">
             <Link href="/dashboard">
-              <div className="text-md font-bold text-white">Dashboard</div>
+              <div className="text-md text-white">Dashboard</div>
             </Link>
           </div>
         </div>
