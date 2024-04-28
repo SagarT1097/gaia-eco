@@ -8,9 +8,19 @@ const Header = async () => {
   return (
     <nav className="flex items-center justify-between px-6 py-4 mb-5 bg-blue-700">
       <div className="flex items-center">
-        <Link href="/">
-          <div className="text-lg font-bold text-white uppercase">Gaia.eco</div>
-        </Link>
+        <div className="flex items-center">
+          <Link href="/">
+            <div className="text-lg font-bold text-white uppercase">
+              Gaia.eco
+            </div>
+          </Link>
+
+          <div className="flex items-center px-5 ">
+            <Link href="/dashboard">
+              <div className="text-md font-bold text-white">Dashboard</div>
+            </Link>
+          </div>
+        </div>
       </div>
       <div className="flex items-center text-white">
         {!userId && (
@@ -28,11 +38,6 @@ const Header = async () => {
               Sign Up
             </Link>
           </>
-        )}
-        {userId && (
-          <Link href="profile" className="text-gray-300 hover:text-white mr-4">
-            Profile
-          </Link>
         )}
         <div className="ml-auto">
           <UserButton afterSignOutUrl="/" />
