@@ -3,7 +3,9 @@ import { SignUp } from "@clerk/nextjs";
 const SignUpPage = () => {
   return (
     <>
-      <SignUp />
+      <div className="flex justify-center">
+        <SignUp />
+      </div>
     </>
   );
 };
