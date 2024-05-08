@@ -23,3 +23,7 @@ Gaia Eco utilizes the following libraries:
 - Leaflet-React: To display Map
 - Chart.js: To display charts
 - Clerk: For Authentication
+
+
+## Jupyter Notebook implementing ipyleaflet 
+Filtered the Markers based on country (Bug: Map layer not rendered upon selectitng country. Markers are loaded however)
