@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
 import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
 import SidebarRight from "../components/SidebarRight";
 
 interface Props {
@@ -9,12 +8,12 @@ interface Props {
 
 const Layout = ({ children, ...props }: Props) => {
   return (
-    <div className="flex">
+    <div className="flex flex-row">
       <Sidebar />
-      {/* <SidebarRight /> */}
       <div {...props} className="flex-1">
         {children}
       </div>
+      <SidebarRight />
     </div>
   );
 };

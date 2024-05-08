@@ -78,7 +78,6 @@ const Analytics = () => {
               >
                 Relationships
               </a>
-
               <a
                 href="#"
                 onClick={() => setSelected("Insights")}
