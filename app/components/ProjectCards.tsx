@@ -1,3 +1,5 @@
+//Project Cards component for Dashboard page. Displays the project cards with image, title and last open date.
+//The Card component is used in the Dashboard page.
 import React from "react";
 
 interface CardProps {

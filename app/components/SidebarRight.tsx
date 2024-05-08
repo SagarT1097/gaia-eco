@@ -1,3 +1,4 @@
+//Dummy Collapsible Sidebar to show Marketplace
 "use client";
 import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from "lucide-react";
 import React, { useState } from "react";

@@ -1,3 +1,5 @@
+//Layout component for the dashboard
+
 import React, { ReactNode } from "react";
 import Sidebar from "../components/Sidebar";
 import SidebarRight from "../components/SidebarRight";

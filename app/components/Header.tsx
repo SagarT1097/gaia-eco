@@ -1,5 +1,9 @@
+// Header Component - Main Navigation Bar with a link to Sign In, Sign Up, Dashboard and Logo. Sign In and Sign Up links are only shown if the
+//user is not logged in. UserButton is used to show the user's profile and sign out button if the user is logged in.
+//The Header component is used in the Layout component.
+
 import Link from "next/link";
-import { auth } from "@clerk/nextjs/server";
+import { auth } from "@clerk/nextjs/server"; //Authentication serice used - Clerk
 import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 
@@ -16,12 +20,14 @@ const Header = async () => {
         </div>
         <div className="flex items-center">
           <div className="flex items-center px-5 ">
+            {/* Link to Dashboard when user is logged in */}
             <Link href="/dashboard">
               <div className="text-md text-white">Dashboard</div>
             </Link>
           </div>
         </div>
       </div>
+      {/* Sign in and Sign up links are shown only if the user is not logged in */}
       <div className="flex items-center text-white">
         {!userId && (
           <>

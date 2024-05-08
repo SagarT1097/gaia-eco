@@ -1,3 +1,4 @@
+//Dummy Navbar component for Analytics page
 import React from "react";
 
 const Navbar = () => {

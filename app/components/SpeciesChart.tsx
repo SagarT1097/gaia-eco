@@ -1,4 +1,4 @@
-// SpeciesChart.tsx
+//Chart to display the number of Arctic Foxes by country in the Insights page of the Dashboard Analytics.
 "use client";
 import { FC, useEffect, useState } from "react";
 import "chart.js/auto";

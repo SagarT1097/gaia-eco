@@ -1,3 +1,6 @@
+//Dummy Sidebar component for the dashboard. The Sidebar component is used in the Dashboard page.
+//The Sidebar component displays the navigation links. The Sidebar component is a dummy component and does not have any functionality.
+//Analytics can be accessed from the Sidebar component.
 import {
   BookText,
   Compass,

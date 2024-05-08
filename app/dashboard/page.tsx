@@ -1,3 +1,5 @@
+//Dashboard Page component for the dashboard. Displays the project cards with image, title and last open date.
+
 "use client";
 import { ChevronDown, Ellipsis, Plus } from "lucide-react";
 import React from "react";

@@ -1,3 +1,7 @@
+//Analytics page for the Dashboard. Dummy data is used to display the title.
+//Maps and charts are displayed based on the selected tab.
+//Maps uses data.json to display the locations on the map.
+
 "use client";
 import Navbar from "@/app/components/Navbar";
 import { Button } from "flowbite-react";
@@ -10,7 +14,7 @@ import data from "@/app/data/data.json";
 
 const Analytics = () => {
   const [selected, setSelected] = useState("");
-
+  //Dynamic import of the Map component to load the component only when it is required
   const Map = useMemo(
     () =>
       dynamic(() => import("@/app/components/Map"), {
