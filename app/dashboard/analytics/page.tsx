@@ -5,6 +5,9 @@ import { Crown, Search } from "lucide-react";
 import dynamic from "next/dynamic";
 import React, { useState, useMemo } from "react";
 
+import SpeciesChart from "@/app/components/SpeciesChart";
+import data from "@/app/data/data.json";
+
 const Analytics = () => {
   const [selected, setSelected] = useState("");
 
@@ -91,7 +94,16 @@ const Analytics = () => {
           {/* Selected Tab */}
           <div className="bg-white-700 my-2 w-[98%] h-[500px]">
             {selected === "Map" && <Map posix={[59.858227, 17.632252]} />}
-            {selected === "Insights" && <p>Insights</p>}
+            {selected === "Insights" && (
+              <div className="">
+                <h1 className="text-xl font-bold mb-4">
+                  Species Distribution by Country
+                </h1>
+                <div className="py-2 px-4">
+                  <SpeciesChart data={data.locations} />
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

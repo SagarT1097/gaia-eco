@@ -1,0 +1,334 @@
+{
+  "species": "Arctic Fox",
+  "locations": [
+    {
+      "id": "1",
+      "latitude": 68.3619,
+      "longitude": 27.6116,
+      "region": "Lapland, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "2",
+      "latitude": 65.0086,
+      "longitude": 25.467,
+      "region": "Oulu, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "3",
+      "latitude": 69.6496,
+      "longitude": 18.956,
+      "region": "Tromsø, Norway",
+      "country": "Norway"
+    },
+    {
+      "id": "4",
+      "latitude": 69.201,
+      "longitude": -51.0943,
+      "region": "Nuuk, Greenland",
+      "country": "Greenland"
+    },
+    {
+      "id": "5",
+      "latitude": 64.1466,
+      "longitude": -21.9426,
+      "region": "Reykjavik, Iceland",
+      "country": "Iceland"
+    },
+    {
+      "id": "6",
+      "latitude": 63.4297,
+      "longitude": 10.3933,
+      "region": "Trondheim, Norway",
+      "country": "Norway"
+    },
+    {
+      "id": "7",
+      "latitude": 59.9139,
+      "longitude": 10.7522,
+      "region": "Oslo, Norway",
+      "country": "Norway"
+    },
+    {
+      "id": "8",
+      "latitude": 65.5842,
+      "longitude": -37.785,
+      "region": "Ilulissat, Greenland",
+      "country": "Greenland"
+    },
+    {
+      "id": "9",
+      "latitude": 65.282,
+      "longitude": -14.3896,
+      "region": "Akureyri, Iceland",
+      "country": "Iceland"
+    },
+    {
+      "id": "10",
+      "latitude": 57.7089,
+      "longitude": 11.9746,
+      "region": "Gothenburg, Sweden",
+      "country": "Sweden"
+    },
+    {
+      "id": "11",
+      "latitude": 65.5825,
+      "longitude": 22.1458,
+      "region": "Umeå, Sweden",
+      "country": "Sweden"
+    },
+    {
+      "id": "12",
+      "latitude": 68.3606,
+      "longitude": 23.7156,
+      "region": "Rovaniemi, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "13",
+      "latitude": 68.3488,
+      "longitude": 17.6476,
+      "region": "Narvik, Norway",
+      "country": "Norway"
+    },
+    {
+      "id": "14",
+      "latitude": 61.9241,
+      "longitude": 25.7482,
+      "region": "Tampere, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "15",
+      "latitude": 65.0121,
+      "longitude": 25.4682,
+      "region": "Oulu, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "16",
+      "latitude": 64.7501,
+      "longitude": 24.7758,
+      "region": "Jyväskylä, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "17",
+      "latitude": 68.723,
+      "longitude": 16.9576,
+      "region": "Bodø, Norway",
+      "country": "Norway"
+    },
+    {
+      "id": "18",
+      "latitude": 60.1695,
+      "longitude": 24.9354,
+      "region": "Helsinki, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "19",
+      "latitude": 65.853,
+      "longitude": -37.978,
+      "region": "Kangerlussuaq, Greenland",
+      "country": "Greenland"
+    },
+    {
+      "id": "20",
+      "latitude": 63.4468,
+      "longitude": 13.0701,
+      "region": "Östersund, Sweden",
+      "country": "Sweden"
+    },
+    {
+      "id": "21",
+      "latitude": 67.8556,
+      "longitude": 20.2253,
+      "region": "Luleå, Sweden",
+      "country": "Sweden"
+    },
+    {
+      "id": "22",
+      "latitude": 57.0488,
+      "longitude": 9.9217,
+      "region": "Aalborg, Denmark",
+      "country": "Denmark"
+    },
+    {
+      "id": "23",
+      "latitude": 55.6761,
+      "longitude": 12.5683,
+      "region": "Copenhagen, Denmark",
+      "country": "Denmark"
+    },
+    {
+      "id": "24",
+      "latitude": 69.3558,
+      "longitude": 88.1893,
+      "region": "Norilsk, Russia",
+      "country": "Russia"
+    },
+    {
+      "id": "25",
+      "latitude": 64.1466,
+      "longitude": -21.9426,
+      "region": "Reykjavik, Iceland",
+      "country": "Iceland"
+    },
+    {
+      "id": "26",
+      "latitude": 64.1265,
+      "longitude": -21.8174,
+      "region": "Kópavogur, Iceland",
+      "country": "Iceland"
+    },
+    {
+      "id": "27",
+      "latitude": 68.1475,
+      "longitude": -16.6789,
+      "region": "Grímsey, Iceland",
+      "country": "Iceland"
+    },
+    {
+      "id": "28",
+      "latitude": 68.9921,
+      "longitude": 24.7914,
+      "region": "Kiruna, Sweden",
+      "country": "Sweden"
+    },
+    {
+      "id": "29",
+      "latitude": 63.4305,
+      "longitude": 10.3951,
+      "region": "Trondheim, Norway",
+      "country": "Norway"
+    },
+    {
+      "id": "30",
+      "latitude": 60.4515,
+      "longitude": 22.2687,
+      "region": "Turku, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "31",
+      "latitude": 63.8709,
+      "longitude": 11.5486,
+      "region": "Steinkjer, Norway",
+      "country": "Norway"
+    },
+    {
+      "id": "32",
+      "latitude": 60.1695,
+      "longitude": 24.9354,
+      "region": "Helsinki, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "33",
+      "latitude": 64.1466,
+      "longitude": -21.9426,
+      "region": "Reykjavik, Iceland",
+      "country": "Iceland"
+    },
+    {
+      "id": "34",
+      "latitude": 65.0121,
+      "longitude": 25.4682,
+      "region": "Oulu, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "35",
+      "latitude": 60.4515,
+      "longitude": 22.2687,
+      "region": "Turku, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "36",
+      "latitude": 63.4305,
+      "longitude": 10.3951,
+      "region": "Trondheim, Norway",
+      "country": "Norway"
+    },
+    {
+      "id": "37",
+      "latitude": 61.9241,
+      "longitude": 25.7482,
+      "region": "Tampere, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "38",
+      "latitude": 59.9139,
+      "longitude": 10.7522,
+      "region": "Oslo, Norway",
+      "country": "Norway"
+    },
+    {
+      "id": "39",
+      "latitude": 63.4468,
+      "longitude": 13.0701,
+      "region": "Östersund, Sweden",
+      "country": "Sweden"
+    },
+    {
+      "id": "40",
+      "latitude": 65.5842,
+      "longitude": -37.785,
+      "region": "Ilulissat, Greenland",
+      "country": "Greenland"
+    },
+    {
+      "id": "41",
+      "latitude": 68.3619,
+      "longitude": 27.6116,
+      "region": "Lapland, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "42",
+      "latitude": 65.853,
+      "longitude": -37.978,
+      "region": "Kangerlussuaq, Greenland",
+      "country": "Greenland"
+    },
+    {
+      "id": "43",
+      "latitude": 55.6761,
+      "longitude": 12.5683,
+      "region": "Copenhagen, Denmark",
+      "country": "Denmark"
+    },
+    {
+      "id": "44",
+      "latitude": 64.1476,
+      "longitude": -21.9426,
+      "region": "Reykjavik, Iceland",
+      "country": "Iceland"
+    },
+    {
+      "id": "45",
+      "latitude": 64.7501,
+      "longitude": 24.7758,
+      "region": "Jyväskylä, Finland",
+      "country": "Finland"
+    },
+    {
+      "id": "46",
+      "latitude": 60.1282,
+      "longitude": 18.6435,
+      "region": "Stockholm, Sweden",
+      "country": "Sweden"
+    },
+    {
+      "id": "47",
+      "latitude": 59.3293,
+      "longitude": 18.0686,
+      "region": "Gothenburg, Sweden",
+      "country": "Sweden"
+    }
+  ]
+}
